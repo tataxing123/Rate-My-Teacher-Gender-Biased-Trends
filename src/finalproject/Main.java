@@ -10,7 +10,7 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("scene.fxml"));
         primaryStage.setTitle("Final Project");
         primaryStage.setScene(new Scene(root, 1920, 1080));
@@ -18,7 +18,6 @@ public class Main extends Application {
         primaryStage.setFullScreen(true);
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         //launch the GUI
